@@ -41,11 +41,11 @@ def predict_product_sale():
         'Product_Allocated_Area': product_data['Product_Allocated_Area'],
         'Product_Type': product_data['Product_Type'],
         'Product_MRP': product_data['Product_MRP'],
-        'Store_Id': product_data['Store_Id'],
         'Store_Size': product_data['Store_Size'],
         'Store_Location_City_Type': product_data['Store_Location_City_Type'],
         'Store_Type': product_data['Store_Type'],
-        'Store_Age': product_data['Store_Age']
+        'Store_Age': product_data['Store_Age'],
+        'Product_Id_Code': product_data['Product_Id_Code']
     }
 
     # Convert the extracted data into a Pandas DataFrame
